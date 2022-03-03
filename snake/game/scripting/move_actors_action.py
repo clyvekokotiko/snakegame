@@ -2,13 +2,6 @@ from game.scripting.action import Action
 from game.casting.cast import Cast
 
 
-# TODO: Implement MoveActorsAction class here! 
-
-# Override the execute(cast, script) method as follows:
-# 1) get all the actors from the cast
-# 2) loop through the actors
-# 3) call the move_next() method on each actor
-
 class MoveActorsAction(Action):
     """
     This class is one thats shows knowledge of polymophism as this class has a function that overides one
